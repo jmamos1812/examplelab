@@ -13,6 +13,6 @@ public class App
     	Scanner kb=new Scanner(System.in);
     	System.out.print("Enter name: ");
     	String name=kb.next();
-        System.out.printf("Hello %s!\n",name);
+        System.out.printf("Hello %s!%n",name);
     }
 }
